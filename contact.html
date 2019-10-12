@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Contact Form</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="deep.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col col-sm-12">
+          <nav class="navbar navbar-expand-lg" id="nava">
+            <a class="navbar-brand" id="nav1" href="index.html">Wes Roach</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="testimonials.html">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <br />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-sm-8">
+          <h1>Contact</h1>
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            id="contact-form"
+          >
+            <ul>
+              <li>
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Jill A. Roo"
+                  required="required"
+                />
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="example@gmail.com"
+                  required="required"
+                />
+              </li>
+              <li>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required="required">
+                </textarea>
+              </li>
+            </ul>
+            <input type="submit" id="#sendEmail" name="submit" />
+          </form>
+        </div>
+        <div class="col col-sm-4">
+          <h2>Connect with ME</h2>
+          <a
+            href="https://www.linkedin.com/in/wes-roach-157a1116b/"
+            target="_blank"
+            ><img
+              src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-256.png"
+              title="My LinkedIn profile"
+              class="social"
+              alt="LinkedIn"
+          /></a>
+          <a href="https://github.com/wesleyroach" target="_blank"
+            ><img
+              src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-256.png"
+              title="My GitHub profile"
+              class="social"
+              alt="GitHub"
+          /></a>
+          <a href="https://angel.co/company/tadpole-1?preview=1" target="_blank"
+            ><img
+              src="https://cdn0.iconfinder.com/data/icons/picons-social/57/69-angellist-2-256.png"
+              title="My AngelList profile"
+              class="social"
+              alt="AngelList"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <br />
+    <footer>
+      <div class="cont">
+        &copy; Copyright 2019 Wes Roach
+      </div>
+    </footer>
+    <script src="profile.js"></script>
+  </body>
+</html>
